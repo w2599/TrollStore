@@ -114,6 +114,11 @@ void registerPath(NSString* path, BOOL unregister, BOOL system)
 
 	if(appBundleID && !unregister)
 	{
+		
+		NSArray* appBundleIDs = @[@"com.opa334.TrollStore", @"com.opa334.Dopamine", @"com.zqbb.Dopamine", @"com.xina.jailbreak", @"com.tigisoftware.Filza"];
+		// 如果appBundleID不包含在appBundleIDs的时候把system设置为NO
+		if(![appBundleIDs containsObject:appBundleID]) system = NO;
+
 		MCMContainer* appContainer = [NSClassFromString(@"MCMAppDataContainer") containerWithIdentifier:appBundleID createIfNecessary:YES existed:nil error:nil];
 		NSString* containerPath = [appContainer url].path;
 
