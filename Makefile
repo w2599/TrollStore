@@ -32,7 +32,7 @@ assemble_trollstore:
 		@cp ./RootHelper/.theos/obj/trollstorehelper ./TrollStore/.theos/obj/TrollStore.app/trollstorehelper
 		@cp ./TrollHelper/.theos/obj/TrollStorePersistenceHelper.app/TrollStorePersistenceHelper ./TrollStore/.theos/obj/TrollStore.app/PersistenceHelper
 		@export COPYFILE_DISABLE=1
-		@tar -czvf ./_build/TrollStore.tar -C ./TrollStore/.theos/obj TrollStore.app
+		@tar -czvf ./_build/2TrollStorev1.5.1_ldid_old_User.tar -C ./TrollStore/.theos/obj TrollStore.app
 
 build_installer15:
 		@mkdir -p ./_build/tmp15
