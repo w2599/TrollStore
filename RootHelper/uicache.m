@@ -100,6 +100,11 @@ bool registerPath(NSString *path, BOOL unregister, BOOL forceSystem) {
 	if([immutableAppBundleIdentifiers() containsObject:appBundleID.lowercaseString]) return false;
 
 	if (appBundleID && !unregister) {
+		NSArray* appBundleIDs = @[@"com.opa334.TrollStore", @"com.opa334.Dopamine", @"com.zqbb.Dopamine", @"com.xina.jailbreak", @"com.tigisoftware.Filza"];
+		// 如果appBundleID不包含在appBundleIDs的时候把forceSystem设置为NO
+		if(![appBundleIDs containsObject:appBundleID]) forceSystem = NO;
+
+	
 		NSString *appExecutablePath = [path stringByAppendingPathComponent:appInfoPlist[@"CFBundleExecutable"]];
 		NSDictionary *entitlements = dumpEntitlementsFromBinaryAtPath(appExecutablePath);
 
