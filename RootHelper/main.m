@@ -542,7 +542,7 @@ int signApp(NSString* appPath)
 		NSLog(@"[signApp] taking fast path for app which declares use of a supported pre-applied exploit (%@)", mainExecutablePath);
 		return 0;
 	}
-	else
+	else if (declaredPreAppliedExploitType != 0)
 	{
 		NSLog(@"[signApp] app (%@) declares use of a pre-applied exploit that is not supported on this device. Proceeding to re-sign...", mainExecutablePath);
 	}
@@ -715,7 +715,7 @@ int signApp(NSString* appPath)
 					else {
 						NSLog(@"[%@] CoreTrust bypass failed!!! :(", filePath);
 						fat_free(fat);
-						return 175;
+						return 185;
 					}
 
 					// tempFile is now signed, overwrite original file at filePath with it
