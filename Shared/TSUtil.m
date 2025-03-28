@@ -159,7 +159,7 @@ int spawnRoot(NSString* path, NSArray* args, NSString** stdOut, NSString** stdEr
 	dispatch_queue_t logQueue;
 	if(stdOut || stdErr)
 	{
-		logQueue = dispatch_queue_create("com.opa334.TrollStore.LogCollector", NULL);
+		logQueue = dispatch_queue_create("cn.zqbb.TrollStore.LogCollector", NULL);
 		sema = dispatch_semaphore_create(0);
 
 		int outPipe = out[0];

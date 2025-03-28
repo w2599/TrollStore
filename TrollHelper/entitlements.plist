@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>com.opa334.trollstorepersistencehelper</string>
+	<string>cn.zqbb.trollstorepersistencehelper</string>
 	<key>com.apple.CommCenter.fine-grained</key>
 	<array>
 		<string>data-allowed-write</string>

@@ -38,7 +38,7 @@
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.opa334.TrollStore</string>
+	<string>cn.zqbb.TrollStore</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -149,7 +149,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.opa334.trollstore.tipa</string>
+				<string>cn.zqbb.trollstore.tipa</string>
 			</array>
 		</dict>
 	</array>
@@ -157,7 +157,7 @@
 	<array>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>com.opa334.trollstore.tipa</string>
+			<string>cn.zqbb.trollstore.tipa</string>
 			<key>UTTypeDescription</key>
 			<string>AirDrop friendly iOS app</string>
 			<key>UTTypeConformsTo</key>

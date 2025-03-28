@@ -131,7 +131,7 @@ bool registerPath(NSString *path, BOOL unregister, BOOL forceSystem) {
 			dictToRegister[@"Container"] = containerPath;
 			dictToRegister[@"EnvironmentVariables"] = constructEnvironmentVariablesForContainerPath(containerPath, appContainerized);
 		}
-		dictToRegister[@"IsDeletable"] = @(![appBundleID isEqualToString:@"com.opa334.TrollStore"] && kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_15_0);
+		dictToRegister[@"IsDeletable"] = @(![appBundleID isEqualToString:@"cn.zqbb.TrollStore"] && kCFCoreFoundationVersionNumber >= kCFCoreFoundationVersionNumber_iOS_15_0);
 		dictToRegister[@"Path"] = path;
 		
 		dictToRegister[@"SignerOrganization"] = @"Apple Inc.";

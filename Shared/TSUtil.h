@@ -11,13 +11,13 @@
 #ifdef TROLLSTORE_LITE
 #define TS_ACTIVE_MARKER TS_LITE_MARKER
 #define TS_INACTIVE_MARKER TS_MARKER
-#define APP_ID @"com.opa334.TrollStoreLite"
+#define APP_ID @"cn.zqbb.TrollStoreLite"
 #define APP_NAME TS_LITE_NAME
 #define OTHER_APP_NAME TS_NAME
 #else
 #define TS_ACTIVE_MARKER TS_MARKER
 #define TS_INACTIVE_MARKER TS_LITE_MARKER
-#define APP_ID @"com.opa334.TrollStore"
+#define APP_ID @"cn.zqbb.TrollStore"
 #define APP_NAME TS_NAME
 #define OTHER_APP_NAME TS_LITE_NAME
 #endif
