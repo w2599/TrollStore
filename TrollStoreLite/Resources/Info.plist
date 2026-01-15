@@ -141,7 +141,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.zqbb.trollstore.tipa</string>
+				<string>cn.zqbb.tstore.tipa</string>
 			</array>
 		</dict>
 	</array>
@@ -149,7 +149,7 @@
     <array>
 		<dict>
 			<key>UTTypeIdentifier</key>
-			<string>com.zqbb.trollstore.tipa</string>
+			<string>cn.zqbb.tstore.tipa</string>
 			<key>UTTypeDescription</key>
 			<string>AirDrop friendly iOS app</string>
 			<key>UTTypeConformsTo</key>
@@ -163,7 +163,7 @@
 					<string>tipa</string>
 				</array>
 				<key>public.mime-type</key>
-				<string>application/trollstore-ipa</string>
+				<string>application/tstore-ipa</string>
 			</dict>
 		</dict>
 	</array>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>com.zqbb.TrollStore</string>
+	<string>cn.zqbb.TStore</string>
 	<key>platform-application</key>
 	<true/>
 	<key>com.apple.security.exception.files.absolute-path.read-write</key>

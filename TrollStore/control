@@ -1,5 +1,5 @@
-Package: com.zqbb.trollstore
-Name: TrollStore
+Package: cn.zqbb.tstore
+Name: TStore
 Version: 2.1
 Architecture: iphoneos-arm
 Description: An awesome application!
